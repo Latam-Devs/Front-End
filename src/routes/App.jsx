@@ -4,6 +4,8 @@ import Home from '@containers/Home';
 import NotFound from '@containers/NotFound';
 import Layout from '@components/Layout';
 
+import '@styles/routes/App.css';
+
 const App = () => (
   <BrowserRouter>
     <Layout>
